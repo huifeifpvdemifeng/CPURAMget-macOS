@@ -1,0 +1,1382 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CpuRamGet/1.0.0": {
+        "dependencies": {
+          "Microsoft.Windows.Compatibility": "6.0.0-preview.1.21102.12",
+          "OpenHardwareMonitor": "0.9.6"
+        },
+        "runtime": {
+          "CpuRamGet.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/6.0.0-preview.1.21102.12": {},
+      "Microsoft.Win32.Registry/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry.AccessControl/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "Microsoft.Windows.Compatibility/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "Microsoft.Win32.Registry.AccessControl": "6.0.0-preview.1.21102.12",
+          "Microsoft.Win32.SystemEvents": "6.0.0-preview.1.21102.12",
+          "System.CodeDom": "6.0.0-preview.1.21102.12",
+          "System.ComponentModel.Composition": "6.0.0-preview.1.21102.12",
+          "System.ComponentModel.Composition.Registration": "6.0.0-preview.1.21102.12",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.1.21102.12",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Data.Odbc": "6.0.0-preview.1.21102.12",
+          "System.Data.OleDb": "6.0.0-preview.1.21102.12",
+          "System.Data.SqlClient": "4.8.1",
+          "System.Diagnostics.EventLog": "6.0.0-preview.1.21102.12",
+          "System.Diagnostics.PerformanceCounter": "6.0.0-preview.1.21102.12",
+          "System.DirectoryServices": "6.0.0-preview.1.21102.12",
+          "System.DirectoryServices.AccountManagement": "6.0.0-preview.1.21102.12",
+          "System.DirectoryServices.Protocols": "6.0.0-preview.1.21102.12",
+          "System.Drawing.Common": "6.0.0-preview.1.21102.12",
+          "System.IO.FileSystem.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.IO.Packaging": "6.0.0-preview.1.21102.12",
+          "System.IO.Pipes.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.IO.Ports": "6.0.0-preview.1.21102.12",
+          "System.Management": "6.0.0-preview.1.21102.12",
+          "System.Reflection.Context": "6.0.0-preview.1.21102.12",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Runtime.Caching": "6.0.0-preview.1.21102.12",
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.Cryptography.Cng": "6.0.0-preview.1.21102.12",
+          "System.Security.Cryptography.Pkcs": "6.0.0-preview.1.21102.12",
+          "System.Security.Cryptography.ProtectedData": "6.0.0-preview.1.21102.12",
+          "System.Security.Cryptography.Xml": "6.0.0-preview.1.21102.12",
+          "System.Security.Permissions": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12",
+          "System.ServiceModel.Duplex": "4.8.0",
+          "System.ServiceModel.Http": "4.8.0",
+          "System.ServiceModel.NetTcp": "4.8.0",
+          "System.ServiceModel.Primitives": "4.8.0",
+          "System.ServiceModel.Security": "4.8.0",
+          "System.ServiceModel.Syndication": "6.0.0-preview.1.21102.12",
+          "System.ServiceProcess.ServiceController": "6.0.0-preview.1.21102.12",
+          "System.Speech": "6.0.0-preview.1.21102.12",
+          "System.Text.Encoding.CodePages": "6.0.0-preview.1.21102.12",
+          "System.Threading.AccessControl": "6.0.0-preview.1.21102.12"
+        }
+      },
+      "OpenHardwareMonitor/0.9.6": {
+        "runtime": {
+          "lib/net45/OpenHardwareMonitorLib.dll": {
+            "assemblyVersion": "0.9.6.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "6.0.0-preview.1.21102.12",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "6.0.0-preview.1.21102.12",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "6.0.0-preview.1.21102.12",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "6.0.0-preview.1.21102.12"
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.CodeDom/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.ComponentModel.Composition.Registration/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.ComponentModel.Composition": "6.0.0-preview.1.21102.12",
+          "System.Reflection.Context": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Composition.Registration.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "6.0.0-preview.1.21102.12",
+          "System.Security.Permissions": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Data.DataSetExtensions/4.5.0": {},
+      "System.Data.Odbc/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.Odbc.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/freebsd/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "freebsd",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/linux/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/osx/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "osx",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Data.OleDb/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.1.21102.12",
+          "System.Diagnostics.PerformanceCounter": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.1",
+            "fileVersion": "4.700.20.6702"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.1",
+            "fileVersion": "4.700.20.6702"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.1",
+            "fileVersion": "4.700.20.6702"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.DirectoryServices/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "System.IO.FileSystem.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.Permissions": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.DirectoryServices.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.DirectoryServices.AccountManagement/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.1.21102.12",
+          "System.DirectoryServices": "6.0.0-preview.1.21102.12",
+          "System.DirectoryServices.Protocols": "6.0.0-preview.1.21102.12",
+          "System.IO.FileSystem.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.DirectoryServices.AccountManagement.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.AccountManagement.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.DirectoryServices.Protocols/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.DirectoryServices.Protocols.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/osx/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll": {
+            "rid": "osx",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.DirectoryServices.Protocols.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Formats.Asn1/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netstandard2.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.IO.FileSystem.AccessControl/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.IO.Packaging/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.IO.Pipes.AccessControl/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        }
+      },
+      "System.IO.Ports/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "runtime.native.System.IO.Ports": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Ports.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/System.IO.Ports.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/osx/lib/netstandard2.0/System.IO.Ports.dll": {
+            "rid": "osx",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Management/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12",
+          "System.CodeDom": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {},
+      "System.Private.ServiceModel/4.8.0": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Reflection.DispatchProxy": "4.7.1",
+          "System.Security.Cryptography.Xml": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Private.ServiceModel.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.800.20.51907"
+          }
+        }
+      },
+      "System.Reflection.Context/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netstandard2.1/System.Reflection.Context.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Reflection.DispatchProxy/4.7.1": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {
+            "assemblyVersion": "4.0.6.0",
+            "fileVersion": "4.700.20.21406"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Emit.ILGeneration/4.7.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Runtime.Caching/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.Caching.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Security.AccessControl/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Security.Cryptography.Cng/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Formats.Asn1": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Security.Cryptography.Pkcs/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Formats.Asn1": "6.0.0-preview.1.21102.12",
+          "System.Security.Cryptography.Cng": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "6.0.0-preview.1.21102.12",
+          "System.Security.Permissions": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Security.Permissions/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Windows.Extensions": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.ServiceModel.Duplex/4.8.0": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.8.0",
+          "System.ServiceModel.Primitives": "4.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Duplex.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.800.20.51907"
+          }
+        }
+      },
+      "System.ServiceModel.Http/4.8.0": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.8.0",
+          "System.ServiceModel.Primitives": "4.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Http.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.800.20.51907"
+          }
+        }
+      },
+      "System.ServiceModel.NetTcp/4.8.0": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.8.0",
+          "System.ServiceModel.Primitives": "4.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.NetTcp.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.800.20.51907"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/4.8.0": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.8.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.ServiceModel.Primitives.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.800.20.51907"
+          },
+          "lib/netcoreapp2.1/System.ServiceModel.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.800.20.51907"
+          }
+        }
+      },
+      "System.ServiceModel.Security/4.8.0": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.8.0",
+          "System.ServiceModel.Primitives": "4.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Security.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.800.20.51907"
+          }
+        }
+      },
+      "System.ServiceModel.Syndication/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Syndication.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.ServiceProcess.ServiceController/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceProcess.ServiceController.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Speech/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "Microsoft.Win32.Registry": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Speech.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.1/System.Speech.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Threading.AccessControl/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.1.21102.12",
+          "System.Security.Principal.Windows": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Threading.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Windows.Extensions/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CpuRamGet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mdF/p3nqdGOOzMGSiO1nf6M0/LmJziyfDW1H16TYwZvj++4+bC4VzH7BEUyX8IjcXJCxvO2uTfym/ZeNJVGthA==",
+      "path": "microsoft.netcore.platforms/6.0.0-preview.1.21102.12",
+      "hashPath": "microsoft.netcore.platforms.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J95AsOzp0ZeBOQgTUMqzavcVhuKx+rMGtmKASwnZGa/GPT+Jknk9Q0vSvznZNrb+hrIxlhxXzXug2Lx3NtbEkw==",
+      "path": "microsoft.win32.registry/6.0.0-preview.1.21102.12",
+      "hashPath": "microsoft.win32.registry.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry.AccessControl/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A8W/LCwSUnZVczbm6zHpuoP8PufmVGu8uOrBvsjptFB+HUzobjUn3Igij+wwJpK8x+nIlxjtsgix5nMZmIIJRQ==",
+      "path": "microsoft.win32.registry.accesscontrol/6.0.0-preview.1.21102.12",
+      "hashPath": "microsoft.win32.registry.accesscontrol.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gzLO6zNVtBMevH3EPLObUUL6g3hW3pSgqskSQvayoru48gMkEVUmfCNCvcQD8sET8B/VwWABsDYEFpq58JJ4GA==",
+      "path": "microsoft.win32.systemevents/6.0.0-preview.1.21102.12",
+      "hashPath": "microsoft.win32.systemevents.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "Microsoft.Windows.Compatibility/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nb6W++I43gxG6kr3WZLRtRzKE96v8Jt+QTQokqh2H0GWON9kzdgagkSSqDw2PgRbz9+2w6anjVHWqryFKxraSg==",
+      "path": "microsoft.windows.compatibility/6.0.0-preview.1.21102.12",
+      "hashPath": "microsoft.windows.compatibility.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "OpenHardwareMonitor/0.9.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vbx870Mi1nzz99VYx4yF0uaH2a8jtQ94Y+vT+0pRZz3alvCzaiJlbre7ArV8oP2YDNO1oVuvYxKZSoWSFUFj3Q==",
+      "path": "openhardwaremonitor/0.9.6",
+      "hashPath": "openhardwaremonitor.0.9.6.nupkg.sha512"
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-24lld1nR1dUBM8fhd+VWpps5ncs1XLYuu7zKp0saplM7xhHLM0M6k0oFD8S4RDocGJggIbeJMYY+YG5HiIypjw==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/6.0.0-preview.1.21102.12",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yT8vwmZag/KBwETyVzIqWcs/qz2EXm8pM+LZelJiyMJYOKldKoSsWm3KRqAMKrxawkkV667Dtpb7IF5va6S1Cw==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/6.0.0-preview.1.21102.12",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1RdTbEcYZ8LEJG0FAgswbgB2MMNWuwNR1G2DwVALFKeSM080Ozr9K3MEMEWkSeh4SsjuizZcJ2f5tOuzWdZDkQ==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/6.0.0-preview.1.21102.12",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DeUfslPT/rF+UWHYXlzu4UQPp784jzTPm4RzD2pQoLKyqqquhRGx8rO2ciMvhOIKC6HBfZ07gb2RHiRyCYFyfQ==",
+      "path": "runtime.native.system.io.ports/6.0.0-preview.1.21102.12",
+      "hashPath": "runtime.native.system.io.ports.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xKwvyMauIJK13CoSuJFMzLqOyKBkrBb8OQFk2JmeXNDuG3XU/OQSw3KIQ9rQlXMSO7bw9U4nYJhytQFuCPNMFQ==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/6.0.0-preview.1.21102.12",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.CodeDom/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xXaCJThmb2PCdRunsbK0o5giR5kkIdlzNNpwmwHrjy6PXmRkxBXswRBpKFpuaewiv7u/eTw5nTsZUMyUEGhTYA==",
+      "path": "system.codedom/6.0.0-preview.1.21102.12",
+      "hashPath": "system.codedom.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.ComponentModel.Composition/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NVrJBuRs8j5Ax75Rk5DrltAAI/fWy9r9v0VKDsy6jDtoBe+hIVYGMPhdERz306Mt2Xmu+yPyCvDTZVXtAgMKww==",
+      "path": "system.componentmodel.composition/6.0.0-preview.1.21102.12",
+      "hashPath": "system.componentmodel.composition.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.ComponentModel.Composition.Registration/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mbLQuu0igq8AIb/DxcndOUzVtoUMT8kdfdwXCZne4v1JEX+/0B8kF4IFlDWt/T0de2W7XWV3/WMgkiLrw5fzMQ==",
+      "path": "system.componentmodel.composition.registration/6.0.0-preview.1.21102.12",
+      "hashPath": "system.componentmodel.composition.registration.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Gx4xG7GKIO8Mp7576/qk5GZgj2eRH1M1sFoeFDUpMZRMhysk35nFTXoqf4k7kTMjZXDqhzaWC8do7xwPRZF7A==",
+      "path": "system.configuration.configurationmanager/6.0.0-preview.1.21102.12",
+      "hashPath": "system.configuration.configurationmanager.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "path": "system.data.datasetextensions/4.5.0",
+      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
+    },
+    "System.Data.Odbc/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CO1PCB+/6MJMdxxsXshqzuM9krkCP5o9pskO+Q2g7weucQe0cFFXYRKf/eejh+rrFRcsHAmHMryBOP6EgdvphQ==",
+      "path": "system.data.odbc/6.0.0-preview.1.21102.12",
+      "hashPath": "system.data.odbc.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Data.OleDb/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LkhGXaoLA0XsMFaR469KvCws5y/JLSzIhK6vo3tf/BI1kpteTOCuzaU9RiYBq1LAmR99yhQNmAujSOf55peuXA==",
+      "path": "system.data.oledb/6.0.0-preview.1.21102.12",
+      "hashPath": "system.data.oledb.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HKLykcv6eZLbLnSMnlQ6Os4+UAmFE+AgYm92CTvJYeTOBtOYusX3qu8OoGhFrnKZax91UcLcDo5vPrqvJUTSNQ==",
+      "path": "system.data.sqlclient/4.8.1",
+      "hashPath": "system.data.sqlclient.4.8.1.nupkg.sha512"
+    },
+    "System.Diagnostics.EventLog/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e0ux0cGXmrBVhCeCV2iVo+1A3rUHlAijqHUHssh55YcsJjCHkOBN7a+jwBP3gjFuDFVSgaqhBK+dcMwOT3Vscw==",
+      "path": "system.diagnostics.eventlog/6.0.0-preview.1.21102.12",
+      "hashPath": "system.diagnostics.eventlog.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xtcxrPcWelxRd4m/mLwlI9/b8aDR/nNG0xmlLu+oxn38SbyKrr+ETLU4jGp1l9AG5QJrAidPn0LbBo8FHl3CnA==",
+      "path": "system.diagnostics.performancecounter/6.0.0-preview.1.21102.12",
+      "hashPath": "system.diagnostics.performancecounter.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.DirectoryServices/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3HGHTXcVJkc4F5cAKN43ZnuBGLGkRGNyqacUsPF8RmOR1HO1JFlN/qZSZKfkSqyI+9axnUsmbJXF07bfn9laRQ==",
+      "path": "system.directoryservices/6.0.0-preview.1.21102.12",
+      "hashPath": "system.directoryservices.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.DirectoryServices.AccountManagement/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/DULHgspYhB1qF0TX/LJOIPwH1+DP+YjkZ21u+4rUPZUtJ75rP1DYamW6Q8rFPD2VvSAYqKZR7GHTOgV6E3tcw==",
+      "path": "system.directoryservices.accountmanagement/6.0.0-preview.1.21102.12",
+      "hashPath": "system.directoryservices.accountmanagement.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.DirectoryServices.Protocols/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WQ9MUq0j49JIgPo8zWqmxrJOcbPULi2B+HHwSgpJjfm+f2rnNTLMjzEfraJbltNGLnFKSczuJZNx90o5Jwz4fQ==",
+      "path": "system.directoryservices.protocols/6.0.0-preview.1.21102.12",
+      "hashPath": "system.directoryservices.protocols.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VfxLOd9L442ax5pxvMfqhQb5lS8/Z2j7zwJWAhAWtsgIyKlveV82RA9GbEJ2q8xq3s3sYyyoXgWGlyVKjBv1hw==",
+      "path": "system.drawing.common/6.0.0-preview.1.21102.12",
+      "hashPath": "system.drawing.common.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Formats.Asn1/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O6L5cekpn2b7iGoUh+OF99rzlLS2DU4cZa8g5DCcdYgT0wwAI/H1TsdDXrVI/ZsKk5yVjSgTRy8jenbjCg1Xgw==",
+      "path": "system.formats.asn1/6.0.0-preview.1.21102.12",
+      "hashPath": "system.formats.asn1.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.IO.FileSystem.AccessControl/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XzakWlnCPqBKGNHr27LP/yYvYsYwI3UExR6NhjN7AmVhkwIF+5rfosxCTyWUJ2r2dMvnDakTjkPX1UEU0pnn0Q==",
+      "path": "system.io.filesystem.accesscontrol/6.0.0-preview.1.21102.12",
+      "hashPath": "system.io.filesystem.accesscontrol.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.IO.Packaging/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hog1dyrsjvDJ1vRLBwTvCjq4fsNGvQIZVjXD4NphEYL+4SkLnCu46jXEJVusgwUftCrYJSsswptftZRr/dnUmw==",
+      "path": "system.io.packaging/6.0.0-preview.1.21102.12",
+      "hashPath": "system.io.packaging.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.IO.Pipes.AccessControl/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NNRTgcdtmRtqxAfSjdM9i9HgM+YIc21WNAjHxpRwgQRls9SvqybB8yiGwzQVqBqI63G46k62gbwl/xqrQhi1gQ==",
+      "path": "system.io.pipes.accesscontrol/6.0.0-preview.1.21102.12",
+      "hashPath": "system.io.pipes.accesscontrol.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.IO.Ports/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-94kwb7vt9nFs0KtdBWAV4uS8uqyGJ2iVhj0/zugQm6Ed/S3amoWTThIbQR2MWJjel86cMl0hNyrW1d3e/7LeHQ==",
+      "path": "system.io.ports/6.0.0-preview.1.21102.12",
+      "hashPath": "system.io.ports.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Management/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yVySvnvaOpc8Y6YW0b6/q2gij3nOsgC38Z8L2cEN3SuCbBLREngaUGG4GjVbd3Pjt6+RSE3TkJe8qgDp2dokIg==",
+      "path": "system.management/6.0.0-preview.1.21102.12",
+      "hashPath": "system.management.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Private.ServiceModel/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V21eCo3u2GOzq/BOSD3hxlJQCOp71RHXI0TxzbFp8k5Gtnu/X2bBYETpiRFUsUojJz5MwUNjtW8BdwdUnwP05g==",
+      "path": "system.private.servicemodel/4.8.0",
+      "hashPath": "system.private.servicemodel.4.8.0.nupkg.sha512"
+    },
+    "System.Reflection.Context/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nOtYnutyyGzb8QUorjm81apDyfbCCrMcBZPsNma/YboAbgC+NTI+qxqGLBMP3VMn/b5CQgM8sxnAWQn9C0sA6A==",
+      "path": "system.reflection.context/6.0.0-preview.1.21102.12",
+      "hashPath": "system.reflection.context.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Reflection.DispatchProxy/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C1sMLwIG6ILQ2bmOT4gh62V6oJlyF4BlHcVMrOoor49p0Ji2tA8QAoqyMcIhAdH6OHKJ8m7BU+r4LK2CUEOKqw==",
+      "path": "system.reflection.dispatchproxy/4.7.1",
+      "hashPath": "system.reflection.dispatchproxy.4.7.1.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Runtime.Caching/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FWljmp60w2+cV3o8y8zRT9TB43zuNb06PmRMOEVFoDFU0Bmg2PEJaei65sKqRy0IXKUK2rxrZzNPoxoBDn1W3A==",
+      "path": "system.runtime.caching/6.0.0-preview.1.21102.12",
+      "hashPath": "system.runtime.caching.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OpeMUeevV3isOGNeiEwuBNq4fNA4B5SuFb941AxzKyjtddknFCV0ykIxyIA4Xxy5O3NjHmnfzqdv4thfC76mwg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-preview.1.21102.12",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ktolUj5qAMDdgrNVKz572ljuhSFFsHUBrWajl1n8o3NuNxh8tZaBf/QFOShI6m9w910uHv7BFBr3KD5A/6CpsA==",
+      "path": "system.security.accesscontrol/6.0.0-preview.1.21102.12",
+      "hashPath": "system.security.accesscontrol.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zg/3detuthGt3+syFnxvoyhjNLs04Vr7EW8Wu8vY+vm0+7HYpYGocX5YPu1SZrxEQkqprSNXtrbvXGo6aHxehQ==",
+      "path": "system.security.cryptography.cng/6.0.0-preview.1.21102.12",
+      "hashPath": "system.security.cryptography.cng.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a2sOp2wTsPcaeF7E/BIgEsSlsZ3nm0Nt6Qo31nTmeUuw8YvfawCFwscWrwvjVW5aovlmApMNKIZ0D1faj/DpZg==",
+      "path": "system.security.cryptography.pkcs/6.0.0-preview.1.21102.12",
+      "hashPath": "system.security.cryptography.pkcs.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-COPTZGmWa8p9u3aRHhTyX7f9SlWRiv+WMMt7MHrA9YdWxh3TDypMDMAXn+drlHw0u+kk9+NzO2hVn99+87zE6w==",
+      "path": "system.security.cryptography.protecteddata/6.0.0-preview.1.21102.12",
+      "hashPath": "system.security.cryptography.protecteddata.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Xml/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/LTZ1IDeuHLWamw0cscYcktQC9BWzfJIQ2OEWBsc8OYN5VtTdogdoLj+8iuV/TbGDEIPT2gopGsvEQnIjW+gvQ==",
+      "path": "system.security.cryptography.xml/6.0.0-preview.1.21102.12",
+      "hashPath": "system.security.cryptography.xml.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Security.Permissions/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d+iIm1dpz4h6o0UvJDpLLWrkmbSOoLDL6iTEJnomzvvvIigo5/WAMYo1wk4U0YR0whaOcDs9Cq8OzLWs0fwuWQ==",
+      "path": "system.security.permissions/6.0.0-preview.1.21102.12",
+      "hashPath": "system.security.permissions.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2QE5BJwp0SHC6KAb/NYf6HzaVXN3oqEIe+JYiwCNuF8mcOb81WOc1XP5i8LmqAcTFrMlF41fi+JVgnV3w/n13A==",
+      "path": "system.security.principal.windows/6.0.0-preview.1.21102.12",
+      "hashPath": "system.security.principal.windows.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.ServiceModel.Duplex/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+LprVYRVD2exSoh4BLo5HJrXUMCoJICxeffYVSwVLhjTalcfUZU3dkGgp5oDtYU82CDV4D8hD8uvaOTNm0IogQ==",
+      "path": "system.servicemodel.duplex/4.8.0",
+      "hashPath": "system.servicemodel.duplex.4.8.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Http/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+kn7xCZjf/d02SE3OnwyU4wxggrxEhOoGLB+DUACSTXvSIGKZoHPXQ6LhkY0/m7nzdjqxmvc7cJO3UPWgIH/8Q==",
+      "path": "system.servicemodel.http/4.8.0",
+      "hashPath": "system.servicemodel.http.4.8.0.nupkg.sha512"
+    },
+    "System.ServiceModel.NetTcp/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KoeXvhicGSQ0A60AruHWTNN/D17ErLkv90SmWS/sFQ+QUc4Bbb8GDFwmDoUhwsa35khiwpSUWt8OBIcoM/ZabA==",
+      "path": "system.servicemodel.nettcp/4.8.0",
+      "hashPath": "system.servicemodel.nettcp.4.8.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Primitives/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-akJiBb0EcWTXQ/dgp1a27O7UynZbqQ84M17OY/ssxfb32x5wtQ5zRw6ExsQaPOUQgia4Wl2jy4FWZddQRLLnaA==",
+      "path": "system.servicemodel.primitives/4.8.0",
+      "hashPath": "system.servicemodel.primitives.4.8.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Security/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oeCYY/i2kFgsVsxkuF4+PdepnVjSKNZtwSKb2qD6CCisLeXfmT5g7IuCdlLlbc2Ppq+wI7KsNhf+xnh9ESnVCQ==",
+      "path": "system.servicemodel.security/4.8.0",
+      "hashPath": "system.servicemodel.security.4.8.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Syndication/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vy0eGqMYmTwiFJ61xD5C66DSp1FDsDxjj4wUQK7STDl1Qhq+NkEUrXNxXiJIA8WXCko1JH0lcj4RwAC7gMggkg==",
+      "path": "system.servicemodel.syndication/6.0.0-preview.1.21102.12",
+      "hashPath": "system.servicemodel.syndication.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.ServiceProcess.ServiceController/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TOzBJmCVai/46jlCRE0+OFbvYkKm2Pi+5eKgxq5Ue10WzlCe00nOiSEIQfegW+zpp55GA6c9HQNgn1VKMID+Bw==",
+      "path": "system.serviceprocess.servicecontroller/6.0.0-preview.1.21102.12",
+      "hashPath": "system.serviceprocess.servicecontroller.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Speech/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/pEkagpQr2xe3XLdE0WVZChkrBXwGvcIzVSIaZAxM3AvGs8Xe+v+gqhgx4Z091C5Og5PTeE44G5aFYjqiU0z6A==",
+      "path": "system.speech/6.0.0-preview.1.21102.12",
+      "hashPath": "system.speech.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-49GKCJ00hrYxEQbsr3pRBettXZ0c2Qv+KByCoJAC7wiwwnHG95ql/SnTl1VFxs3RhYg2+7VWxoKVDi1mg1hT4w==",
+      "path": "system.text.encoding.codepages/6.0.0-preview.1.21102.12",
+      "hashPath": "system.text.encoding.codepages.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Threading.AccessControl/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nvUh5NQGMgP/w5Xdka2bbddL4Q2bflJfeE0SLcHl9lRh5nqjom5ZGJj+8tI4VYyirS4hHi6/6nw3Q9gvGEXoAQ==",
+      "path": "system.threading.accesscontrol/6.0.0-preview.1.21102.12",
+      "hashPath": "system.threading.accesscontrol.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZamdNyc2VE3dTb73BOqJQ+6K/yEVSmzpUjqQUCzMetP3vZAChLi+P+9k+LJ4FbQ1+ejMxyMVtq2TT3wXY2E2Lg==",
+      "path": "system.windows.extensions/6.0.0-preview.1.21102.12",
+      "hashPath": "system.windows.extensions.6.0.0-preview.1.21102.12.nupkg.sha512"
+    }
+  }
+}
